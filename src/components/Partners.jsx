@@ -1,10 +1,15 @@
 import React from 'react'
 
+import bbc from '../assets/bbc.png';
+import bdc from '../assets/bdc.png';
+import skynews from '../assets/skynews.png';
+
+
 // Replace these with your actual logo image paths
 const partners = [
-  { name: 'BBC News', logo: 'src/assets/bbc.png' },
-  { name: 'Sky News', logo: 'src/assets/skynews.png' },
-  { name: 'Barking and Dagenham College', logo: 'src/assets/bdc.png' },
+  { name: 'BBC News', logo: bbc },
+  { name: 'Sky News', logo: skynews },
+  { name: 'Barking and Dagenham College', logo: bdc },
 ]
 
 function Partners() {

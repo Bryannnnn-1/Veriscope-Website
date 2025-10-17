@@ -1,4 +1,7 @@
 import { useState, useEffect } from 'react'
+import logo from "../assets/logo.png"
+import close from "../assets/close.svg"
+import hamburger from "../assets/hamburger.svg"
 
 function Header({ mobileMenuOpen, setMobileMenuOpen }) {
   const [scrolled, setScrolled] = useState(false)
@@ -23,7 +26,7 @@ function Header({ mobileMenuOpen, setMobileMenuOpen }) {
     <header className={scrolled ? 'scrolled' : ''}>
       <div className="header-container">
         <div className="header-logo" onClick={() => scrollToSection('home')}>
-         <img src="src\assets\logo.png" className="logo-icon" />
+         <img src={logo} className="logo-icon" />
         </div>
 
         <button
@@ -32,7 +35,7 @@ function Header({ mobileMenuOpen, setMobileMenuOpen }) {
           aria-label="Toggle menu"
         >
           <img
-            src={mobileMenuOpen ? "src/assets/close.svg" : "src/assets/hamburger.svg"}
+            src={mobileMenuOpen ? close : hamburger}
             alt="menu icon"
             className="menu-icon"
           />

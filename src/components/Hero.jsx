@@ -1,4 +1,9 @@
 import { useState } from 'react'
+import attach from "../assets/attach.svg"
+import arrow from "../assets/arrow.svg"
+
+
+
 
 function Hero() {
   const [content, setContent] = useState('')
@@ -23,12 +28,12 @@ function Hero() {
                 <input
                   style={{ display: 'none' }}
                 />
-                <img src="src/assets/attach.svg"/>
+                <img src={attach}/>
               </label>
               <button
                 className="scan-submit"
               >
-                <img src="src/assets/arrow.svg" />
+                <img src={arrow} />
               </button>
             </div>
           </div>

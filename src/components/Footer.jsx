@@ -1,3 +1,6 @@
+import linkedin from '../assets/linkedin.svg';
+
+
 function Footer() {
   return (
     <footer className="footer">
@@ -45,7 +48,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <div className="footer-social">
-          <a href="#linkedin" className="social-link" aria-label="LinkedIn"><img src="src/assets/linkedin.svg" alt="" /></a>
+          <a href="#linkedin" className="social-link" aria-label="LinkedIn"><img src={linkedin} alt="" /></a>
         </div>
         <p className="footer-copyright">
           &copy; 2025 Veriscope - Digital Skills Project. All rights reserved.

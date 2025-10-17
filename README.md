@@ -1,4 +1,4 @@
-# 🧠 Veriscope — AI-Driven Content Verification Platform (Demo Website)
+# Veriscope — AI-Driven Content Verification Platform (Demo Website)
 
 **Veriscope** is a web platform dedicated to analyzing, verifying, and exposing fake or misleading content online.  
 Built with modern web technologies, Veriscope empowers users (especially ages **16–19**) to identify misinformation using **AI-driven verification** across **text, images, and videos**.

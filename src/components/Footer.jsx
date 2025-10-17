@@ -1,4 +1,5 @@
 import linkedin from '../assets/linkedin.svg';
+import logo from '../assets/logo.png';
 
 
 function Footer() {
@@ -7,7 +8,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-column">
           <div className="footer-logo">
-            <img src="src\assets\logo.png" className="logo-icon" />
+            <img src={logo} className="logo-icon" />
           </div>
           <p className="footer-tagline">Your superhuman fact-checker</p>
           <p className="footer-description">

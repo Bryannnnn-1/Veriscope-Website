@@ -2,9 +2,6 @@ import { useState } from 'react'
 import attach from "../assets/attach.svg"
 import arrow from "../assets/arrow.svg"
 
-
-
-
 function Hero() {
   const [content, setContent] = useState('')
   const [scanning, setScanning] = useState(false)

@@ -22,6 +22,7 @@ Built with modern web technologies, Veriscope empowers users (especially ages **
 | Frontend Framework | [React](https://react.dev/) |
 | Build Tool | [Vite](https://vitejs.dev/) |
 | Styling | CSS (custom + modular) |
-| This is only Frontend website |
 | Deployment | Netlify |
 
+
+## This is only Frontend website! No interactions!

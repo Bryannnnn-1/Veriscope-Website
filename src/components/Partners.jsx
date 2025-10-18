@@ -5,7 +5,6 @@ import bdc from '../assets/bdc.png';
 import skynews from '../assets/skynews.png';
 
 
-// Replace these with your actual logo image paths
 const partners = [
   { name: 'BBC News', logo: bbc },
   { name: 'Sky News', logo: skynews },

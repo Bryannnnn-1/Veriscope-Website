@@ -814,15 +814,15 @@ header nav button.sign-in-btn:hover {
     top: 70px;
     left: 0;
     right: 0;
-    background: rgba(15, 23, 42, 0.5); /* make it semi-transparent */
-    backdrop-filter: blur(20px);       /* apply frosted glass */
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(20px);
     flex-direction: column;
     padding: 2rem;
     transform: translateY(-100%);
     opacity: 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
     border-bottom: 1px solid var(--border-color);
-    z-index: 999; /* make sure it’s above content */
+    z-index: 999;
   }
 
 

@@ -15,9 +15,7 @@ function Partners() {
   return (
     <section className="partners-section" id="partners">
       <div className="section-divider"></div>
-
       <h2 className="partners-heading">OUR PARTNERS</h2>
-
       <div className="partners-grid">
         {partners.map((partner, index) => (
           <div key={index} className="partner-card">
